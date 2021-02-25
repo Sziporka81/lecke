@@ -18,3 +18,21 @@ h1{
     color: #76b332;
     font-weight: 400;
 }
+main{
+   
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+nav{
+    background-image: url('../képek/vidéki templom.jpg');
+}
+aside{
+ 
+}
