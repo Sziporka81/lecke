@@ -53,13 +53,37 @@ nav a:hover{
 }
 main{
     flex-basis: 60vw;
+    margin: 0 20px;
 }
 aside{
     flex-basis: 20vw;
 }
-epulet{
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+aside li{
+    padding: 15px 15px;
+    border-bottom: 1px dashed rgba(0,0,0,.2);
+}
+aside a{
+    display: block;
+    color:#354052;
+    text-decoration: none;
+    line-height: 20px;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+h3{
+    color:#354052; 
+    padding: 15px 15px;
+}
+.epulet{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -10px;
 }
 .epulet-box{
     flex: 1;
@@ -68,4 +92,14 @@ epulet{
     border: 1px solid #ddd;
     padding: 0 0 10px 0;
     margin: 0 10px 20px 10px;
+}
+.epulet-box h2{
+    font-size: 18px;
+    padding: 10px 20px 0 20px;
+    margin: 0;
+}
+.epulet-box p{
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 14px;
 }
